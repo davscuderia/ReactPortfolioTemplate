@@ -11,8 +11,8 @@ export default function About({innerRef}) {
     function aboutMeText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()}:~$</span> sudo apt
-                about{firstName} </p>
-            <p><span className={Style.green}>(base)</span><span style={{color: info.baseColor}}>about{firstName}:~$</span>
+                à-propos-{firstName} </p>
+            <p><span className={Style.green}>(base)</span><span style={{color: info.baseColor}}>à-propos-{firstName}:~$</span>
                 {info.bio}
             </p>
         </>;

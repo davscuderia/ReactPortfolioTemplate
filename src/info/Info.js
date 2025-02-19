@@ -30,22 +30,22 @@ export const info = {
     firstName: "David",
     lastName: "Prat",
     initials: "DP", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    position: "un développeur web",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'préparé avec du café'
         },
         {
             emoji: '🌎',
-            text: 'based in the France'
+            text: 'Situé en France'
         },
         {
             emoji: "💼",
-            text: "Developpeur Web junior"
+            text: "Développeur Web junior"
         },
         {
             emoji: "📧",
@@ -53,16 +53,6 @@ export const info = {
         }
     ],
     socials: [
-        /*{
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },*/
         {
             link: "https://github.com/davscuderia",
             icon: "fa fa-github",
