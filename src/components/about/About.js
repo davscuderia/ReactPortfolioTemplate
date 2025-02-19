@@ -10,10 +10,9 @@ export default function About({innerRef}) {
 
     function aboutMeText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()}:~$</span> sudo apt
                 about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className={Style.green}>(main)</span> $ </span>
+            <p><span className={Style.green}>(base)</span><span style={{color: info.baseColor}}>about{firstName}:~$</span>
                 {info.bio}
             </p>
         </>;
@@ -21,27 +20,29 @@ export default function About({innerRef}) {
 
     function skillsText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()}:~$</span> cd technologies/utilisées 
             </p>
-            <p><span style={{color: info.baseColor}}>skills/tools <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
+            <p><span className={Style.green}>(base)</span><span style={{color: info.baseColor}}>technologies/utilisées:~/</span> cd..</p>
+            <p style={{color: info.baseColor}}> Compétent avec</p>
             <ul className={Style.skills}>
                 {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
             </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
+            <p style={{color: info.baseColor}}> Travaille avec</p>
             <ul className={Style.skills}>
                 {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
+            </ul>
+            <p style={{color: info.baseColor}}> Apprentissage en cours</p>
+            <ul className={Style.skills}>
+                {info.skills.learning.map((learningSkill, index) => <li key={index}>{learningSkill}</li>)}
             </ul>
         </>;
     }
 
     function miscText() {
         return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
-                className={Style.green}>(main)</span> $</span> ls</p>
+            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()}:~$</span> cd
+                Loisirs/centre d'intérêts</p>
+            <p><span className={Style.green}>(main)</span><span style={{color: info.baseColor}}>Loisirs/centre d'intérêts:~/</span> ls</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
                     <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>

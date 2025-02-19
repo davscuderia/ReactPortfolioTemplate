@@ -64,12 +64,12 @@ export const info = {
             label: 'instagram'
         },*/
         {
-            link: "https://github.com",
+            link: "https://github.com/davscuderia",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/david-prat-08-etik/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -82,29 +82,30 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: ` Bonjour ! Je suis David. Je suis un développeur web. Le développement web c'est une reconversion professionnelle enrichissante, fraîchement diplômé de chez OpenClassRooms.
+            J'y ai acquis des compétences en JavaScript, React, Node.js, HTML, CSS et en gestion de bases de données.
+            Je conçois et optimise des sites web et applications, tout en relevant les défis liés à la performance et à la correction de bugs.
+            Mon parcours antérieur m’a forgé des compétences essentielles : organisation, communication, recherche et adaptation aux réglementations.
+            Curieux et persévérant, j’aime apprendre, partager mes connaissances et progresser en équipe. Mon objectif ? Concevoir des solutions web performantes et évolutives.`,
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['JavaScript', 'React', 'GitHub', 'HTML5', 'CSS3', 'NodeJS'],
+            exposedTo: ['VScode', 'Figma', 'Canva', 'Ubuntu', 'IA'],
+            learning: ['Angular', 'Rust']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Moto',
+            emoji: '🏍️'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Bricolage',
+            emoji: '🛠️'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'cryptomonnaies',
+            emoji: '🪙🔗'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
