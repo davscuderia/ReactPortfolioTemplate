@@ -50,8 +50,8 @@ export default function BaseLayout() {
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
                   py={'1.5rem'} sx={{ opacity: 0.7 }} width={'100%'}>
                   <p>Création David Prat</p>
-                  <p><a href={'https://paytonpierce.dev'}>template by Payton Pierce</a></p>
                   <p>&copy; 2025</p>
+                  <p><a href={'https://paytonpierce.dev'}>template by Payton Pierce</a></p>
                </Box>
             </Grid>
          </Grid>

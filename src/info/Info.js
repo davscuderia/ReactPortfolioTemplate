@@ -49,7 +49,7 @@ export const info = {
         },
         {
             emoji: "📧",
-            text: "davidprat08@etik.com"
+            text: <a href="mailto:davidprat08@etik.com">davidprat08@etik.com</a>,
         }
     ],
     socials: [
