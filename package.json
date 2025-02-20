@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-david-prat",
+  "name": "portfoliotemplate",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
@@ -46,5 +46,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-optional-chaining": "^7.25.9",
+    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "@eslint/config-array": "^0.19.2",
+    "@eslint/object-schema": "^2.1.6",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "workbox-background-sync": "^7.3.0"
   }
 }
