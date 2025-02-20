@@ -1,7 +1,7 @@
 {
-  "name": "portfoliotemplate",
+  "name": "portfoliodavidprat",
   "homepage": "https://davscuderia.github.io/ReactPortfolioTemplate/",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
