@@ -102,33 +102,33 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Projet Nina C.",
+            live: "https://davscuderia.github.io/Nina-Carducci-Dev/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/davscuderia/Nina-Carducci-Dev.git", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Projet Kasa", 
+            live: "",       
+            source: "https://github.com/davscuderia/kasa.git",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Projet Sophie B.",
+            live: "",
+            source: "https://github.com/davscuderia/Portfolio-architecte-sophie-bluel-1.git",
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Projet Booki",
+            live: "",
+            source: "https://github.com/davscuderia/Booki.git",
             image: mock4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Projet Mon Vieux Grimoire",
+            live: "",
+            source: "https://github.com/davscuderia/Mon-vieux-Grimoire.git",
             image: mock5
         }
     ]
