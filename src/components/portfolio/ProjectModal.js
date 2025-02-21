@@ -1,6 +1,7 @@
 import React from "react";
 import { Modal, Box, Typography } from "@mui/material";
 import styles from "../BaseLayout.module.scss";
+import ProjectDescription from "./ProjectDescription";
 
 const ProjectModal = ({ project, open, handleClose, darkMode }) => {
     console.log(darkMode ? styles.dark : styles.light);
@@ -19,9 +20,7 @@ const ProjectModal = ({ project, open, handleClose, darkMode }) => {
                 <Typography variant="h4" component="h2">
                     {project.title}
                 </Typography>
-                <Typography sx={{mt: 2}}>
-                    
-                </Typography>
+                <ProjectDescription project={project} />
             </Box>
         </Modal>
     );
